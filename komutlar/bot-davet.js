@@ -4,7 +4,7 @@ const client = new Discord.Client();
 exports.run = async (client, message) => {
   const davet = new Discord.RichEmbed()
 .setColor("#f65026")
-.setDescription(`${client.emojis.get("645585518326841379")} [Beni davet eder misin!](https://discordapp.com/oauth2/authorize?client_id=543950798430928906&scope=bot&permissions=2146958847)`)
+.setDescription(`${client.emojis.get(760820702558289931)} [Beni davet eder misin!](https://discordapp.com/oauth2/authorize?client_id=779442593481490452& kapsam=bot&permissions=2146958847)`)
 message.channel.send(davet)
 };
 
